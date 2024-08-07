@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(images/gif.gif) no-repeat center center/cover;
+    flex-direction: column;
+}
+.banner {
+    width: 100%;
+    height: 71vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    perspective: 1000px;
+}
+.slider {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform-style: preserve-3d;
+    transform: translate(-50%, -50%);
+    animation: rotate 20s infinite linear;
+}
+.slider div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--position) * (360deg / var(--quantity)))) translateZ(500px);
+}
+.slider img {
+    width: 79%;
+    height: 79%;
+    object-fit: cover;
+    transition: transform 3s ease-in;
+    position: relative;
+}
+
+.slider img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+    overflow: hidden;
+}
+@keyframes rotate {
+    from {
+        transform: translate(-50%, -50%) rotateY(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotateY(360deg);
+    }
+}
+button {
+    border-bottom: 2px solid white;
+    background-color: transparent;  
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 30px; 
+    margin-bottom: 4px;
+    cursor: pointer; 
+    border-radius: 12px; 
+    transition: background-color 0.3s ease; 
+}
+button a {
+    color: white; 
+    text-decoration: none; 
+    display: block; 
+}
+button:hover {
+    background-color: red; 
+}
+button a:hover {
+    color: white; 
+}
+
+
+
+ 
