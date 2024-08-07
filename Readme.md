@@ -1,6 +1,6 @@
 # 3D Image Carousel
 
-![Death Note](https://i.imgur.com/3U6kKtw.jpg)
+![Death Note](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrLyP7VSi6AB5tMinioGJ-czjQ1P24SrL4nA&s)
 
 ## Overview
 
@@ -14,9 +14,6 @@ This project showcases a 3D image carousel with rotating images and a reflection
 - Fully responsive design
 - Styled button with hover effect
 
-## Demo
-
-![3D Image Carousel](path-to-your-demo-image.jpg)
 
 ## Technologies Used
 
