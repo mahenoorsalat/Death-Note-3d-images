@@ -51,7 +51,3 @@ This project is licensed under the MIT License.
 For any inquiries or feedback, please contact [Salat Mahenoor](https://github.com/SalatMahenoor).
 
 ---
-
-*Note: Replace `path-to-your-demo-image.jpg` with the actual path to a demo image of your carousel.*
-
-![Death Note](https://i.imgur.com/3U6kKtw.jpg)
